@@ -2,3 +2,4 @@ ShiftData.db
 data/ShiftPerformance.csv
 mlruns/
 .env
+models/
