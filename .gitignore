@@ -3,3 +3,4 @@ data/ShiftPerformance.csv
 mlruns/
 .env
 models/
+shift_env/
