@@ -1,4 +1,4 @@
-"# Shift Performance Optimization System
+# Shift Performance Optimization System
 
 ## 📚 Technology Stack
 
