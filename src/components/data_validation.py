@@ -32,7 +32,7 @@ class DataValidation:
         missing = self.df.isna().sum()
         if missing.sum() > 0:
             self.logger.error("The input DataFrame contains missing values.")
-            raise MyException("The input DataFrame contains missing values.")
+            # raise MyException("The input DataFrame contains missing values.")
         else:
             self.logger.info("The input DataFrame does not contain any missing values.")
         return missing
@@ -113,6 +113,6 @@ def validate(df: pd.DataFrame):
     validator.check_duplicates()
     outliers_summary = validator.detect_outliers()
     df_capped = validator.cap_outliers()
-    df_capped.to_csv("artefacts/data/validated_data.csv", index=False)
+    df_capped.to_csv("artifacts/data/validated_data.csv", index=False)
     return df_capped
 

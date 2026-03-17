@@ -20,7 +20,7 @@ def load_data():
         engine = create_engine(f'sqlite:///{data_path}')
         conn = engine.connect()
 
-        df = pd.read_sql_table(f"SELECT {', '.join(columns)} FROM ShiftPerformance", conn)
+        df = pd.read_sql_query(f"SELECT {', '.join(columns)} FROM ShiftPerformance", conn)
         conn.close()
         os.makedirs("artifacts/data", exist_ok=True)
         df.to_csv("artifacts/data/shift_performance_data.csv", index=False)

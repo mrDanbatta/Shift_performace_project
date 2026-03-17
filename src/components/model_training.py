@@ -28,11 +28,10 @@ class ModelTrainer:
 
     def create_model_pipeline(self):
         """Creates a machine learning pipeline with preprocessing and a linear regression model."""
-        """Creates a data transformation pipeline for numeric and categorical features."""
         try:
             self.logger.info("Creating data transformation pipeline.")
-            numeric_features = self.df.select_dtypes(include=['int64', 'float64']).columns
-            categorical_features = self.df.select_dtypes(include=['object']).columns
+            numeric_features = self.X_train.select_dtypes(include=['int64', 'float64']).columns.tolist()
+            categorical_features = self.X_train.select_dtypes(include=['object']).columns.tolist()
             
             numeric_transformer = Pipeline(steps=[
                 ('imputer', SimpleImputer(strategy='mean')),
@@ -41,7 +40,7 @@ class ModelTrainer:
             
             categorical_transformer = Pipeline(steps=[
                 ('imputer', SimpleImputer(strategy='most_frequent')),
-                ('onehot', OneHotEncoder(handle_unknown='ignore'))
+                ('onehot', OneHotEncoder(handle_unknown='ignore', sparse_output=False))
             ])
             
             preprocessor = ColumnTransformer(
@@ -56,9 +55,7 @@ class ModelTrainer:
             ])
             self.logger.info("Model pipeline created successfully.")
             return pipeline
-            # self.logger.info("Data transformation pipeline created successfully.")
-            # return preprocessor.fit_transform(self.df)
-        except MyException as e:
+        except Exception as e:
             self.logger.error(f'Error creating data transformation pipeline: {e}')
             raise MyException(e, sys)
 

@@ -1,9 +1,9 @@
 columns:
   - shift_name: categorical
   - supervisor_id: categorical
-  - defect_rate: int
+  - defect_count: float
   - cycle_time_avg: float
-  - operator_id: int
+  - operator_id: categorical
   - experience_level: int
   - skill_category: categorical
   - maintenance_downtime: float
@@ -16,13 +16,12 @@ columns:
   - shift_efficiency_score: float
 
 numerical_features:
-  - defect_rate
+  - defect_count
   - cycle_time_avg
   - experience_level
   - maintenance_downtime
   - temperature
   - humidity
-  - operator_id
   - maintenance_flag
 
 categorical_features:
@@ -32,6 +31,7 @@ categorical_features:
   - machine_status
   - issue_type
   - inspection_result
+  - operator_id
 
 target_variable: 
   - shift_efficiency_score

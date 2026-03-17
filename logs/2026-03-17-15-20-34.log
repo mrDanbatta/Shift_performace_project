@@ -1,0 +1,29 @@
+2026-03-17 15:20:36,876 - DEBUG - Using proactor: IocpProactor
+2026-03-17 15:20:36,876 - DEBUG - Using proactor: IocpProactor
+2026-03-17 15:20:36,876 - DEBUG - Using proactor: IocpProactor
+2026-03-17 15:20:36,876 - DEBUG - Using proactor: IocpProactor
+2026-03-17 15:20:51,251 - INFO - Loading data from the database...
+2026-03-17 15:20:51,251 - INFO - Loading data from the database...
+2026-03-17 15:20:51,251 - INFO - Loading data from the database...
+2026-03-17 15:20:51,251 - INFO - Loading data from the database...
+2026-03-17 15:20:51,251 - INFO - Loading data from the database...
+2026-03-17 15:20:51,268 - INFO - Schema loaded successfully.
+2026-03-17 15:20:51,268 - INFO - Schema loaded successfully.
+2026-03-17 15:20:51,268 - INFO - Schema loaded successfully.
+2026-03-17 15:20:51,268 - INFO - Schema loaded successfully.
+2026-03-17 15:20:51,268 - INFO - Schema loaded successfully.
+2026-03-17 15:20:51,341 - ERROR - Error loading data: (sqlite3.OperationalError) no such column: defect_rate
+[SQL: SELECT shift_name, supervisor_id, defect_rate, cycle_time_avg, operator_id, experience_level, skill_category, maintenance_downtime, maintenance_flag, machine_status, issue_type, inspection_result, temperature, humidity, shift_efficiency_score FROM ShiftPerformance]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-17 15:20:51,341 - ERROR - Error loading data: (sqlite3.OperationalError) no such column: defect_rate
+[SQL: SELECT shift_name, supervisor_id, defect_rate, cycle_time_avg, operator_id, experience_level, skill_category, maintenance_downtime, maintenance_flag, machine_status, issue_type, inspection_result, temperature, humidity, shift_efficiency_score FROM ShiftPerformance]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-17 15:20:51,341 - ERROR - Error loading data: (sqlite3.OperationalError) no such column: defect_rate
+[SQL: SELECT shift_name, supervisor_id, defect_rate, cycle_time_avg, operator_id, experience_level, skill_category, maintenance_downtime, maintenance_flag, machine_status, issue_type, inspection_result, temperature, humidity, shift_efficiency_score FROM ShiftPerformance]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-17 15:20:51,341 - ERROR - Error loading data: (sqlite3.OperationalError) no such column: defect_rate
+[SQL: SELECT shift_name, supervisor_id, defect_rate, cycle_time_avg, operator_id, experience_level, skill_category, maintenance_downtime, maintenance_flag, machine_status, issue_type, inspection_result, temperature, humidity, shift_efficiency_score FROM ShiftPerformance]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-03-17 15:20:51,341 - ERROR - Error loading data: (sqlite3.OperationalError) no such column: defect_rate
+[SQL: SELECT shift_name, supervisor_id, defect_rate, cycle_time_avg, operator_id, experience_level, skill_category, maintenance_downtime, maintenance_flag, machine_status, issue_type, inspection_result, temperature, humidity, shift_efficiency_score FROM ShiftPerformance]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

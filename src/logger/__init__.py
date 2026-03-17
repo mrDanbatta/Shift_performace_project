@@ -33,5 +33,3 @@ def configure_logger():
     logger.addHandler(console_handler)
 
     return logger
-
-configure_logger()

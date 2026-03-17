@@ -25,5 +25,4 @@ def load_schema():
         logger.error(f"Schema file not found at path: {schema_path}")
         raise e
     
-load_schema()
     

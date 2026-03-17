@@ -21,7 +21,7 @@ class DataTransformation:
         """Splits the DataFrame into training and testing sets."""
         try:
             self.logger.info("Splitting data into training and testing sets.")
-            self.target_column = self.schema['target_column']
+            self.target_column = self.schema['target_variable'][0]  # Extract first element as string
             X = self.df.drop(columns=[self.target_column])
             y = self.df[self.target_column]
             return X, y

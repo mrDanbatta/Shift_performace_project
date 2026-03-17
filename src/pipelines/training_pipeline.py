@@ -9,7 +9,7 @@ import sys
 from src.logger import configure_logger
 logger = configure_logger()
 
-def run__training_pipeline():
+def run_training_pipeline():
     try:
         data = load_data()
         logger.info("Data loaded successfully.")
@@ -27,4 +27,4 @@ def run__training_pipeline():
         raise MyException(e, sys)
     
 if __name__ == "__main__":
-    run__training_pipeline()
+    run_training_pipeline()

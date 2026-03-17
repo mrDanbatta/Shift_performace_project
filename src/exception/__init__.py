@@ -48,3 +48,9 @@ class MyException(Exception):
             str: The detailed error message.
         """
         return self.error_message
+
+# Example usage:
+# try:
+#     raise MyException("An error occurred", sys)
+# except MyException as e:
+#     print(e)

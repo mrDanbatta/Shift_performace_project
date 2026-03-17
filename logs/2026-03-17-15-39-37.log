@@ -1,0 +1,115 @@
+2026-03-17 15:39:40,517 - DEBUG - Using proactor: IocpProactor
+2026-03-17 15:39:40,517 - DEBUG - Using proactor: IocpProactor
+2026-03-17 15:39:40,517 - DEBUG - Using proactor: IocpProactor
+2026-03-17 15:39:40,517 - DEBUG - Using proactor: IocpProactor
+2026-03-17 15:39:47,425 - INFO - Loading data from the database...
+2026-03-17 15:39:47,425 - INFO - Loading data from the database...
+2026-03-17 15:39:47,425 - INFO - Loading data from the database...
+2026-03-17 15:39:47,425 - INFO - Loading data from the database...
+2026-03-17 15:39:47,425 - INFO - Loading data from the database...
+2026-03-17 15:39:47,453 - INFO - Schema loaded successfully.
+2026-03-17 15:39:47,453 - INFO - Schema loaded successfully.
+2026-03-17 15:39:47,453 - INFO - Schema loaded successfully.
+2026-03-17 15:39:47,453 - INFO - Schema loaded successfully.
+2026-03-17 15:39:47,453 - INFO - Schema loaded successfully.
+2026-03-17 15:39:52,094 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-17 15:39:52,094 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-17 15:39:52,094 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-17 15:39:52,094 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-17 15:39:52,094 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-17 15:39:52,155 - INFO - DataValidation class initialized.
+2026-03-17 15:39:52,155 - INFO - DataValidation class initialized.
+2026-03-17 15:39:52,155 - INFO - DataValidation class initialized.
+2026-03-17 15:39:52,155 - INFO - DataValidation class initialized.
+2026-03-17 15:39:52,155 - INFO - DataValidation class initialized.
+2026-03-17 15:39:52,155 - INFO - DataValidation class initialized.
+2026-03-17 15:39:52,160 - INFO - The input DataFrame is not empty.
+2026-03-17 15:39:52,160 - INFO - The input DataFrame is not empty.
+2026-03-17 15:39:52,160 - INFO - The input DataFrame is not empty.
+2026-03-17 15:39:52,160 - INFO - The input DataFrame is not empty.
+2026-03-17 15:39:52,160 - INFO - The input DataFrame is not empty.
+2026-03-17 15:39:52,160 - INFO - The input DataFrame is not empty.
+2026-03-17 15:39:52,285 - ERROR - The input DataFrame contains missing values.
+2026-03-17 15:39:52,285 - ERROR - The input DataFrame contains missing values.
+2026-03-17 15:39:52,285 - ERROR - The input DataFrame contains missing values.
+2026-03-17 15:39:52,285 - ERROR - The input DataFrame contains missing values.
+2026-03-17 15:39:52,285 - ERROR - The input DataFrame contains missing values.
+2026-03-17 15:39:52,285 - ERROR - The input DataFrame contains missing values.
+2026-03-17 15:39:52,498 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-17 15:39:52,498 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-17 15:39:52,498 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-17 15:39:52,498 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-17 15:39:52,498 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-17 15:39:52,498 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-17 15:39:52,509 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-17 15:39:52,509 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-17 15:39:52,509 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-17 15:39:52,509 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-17 15:39:52,509 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-17 15:39:52,509 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-17 15:39:52,887 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-17 15:39:52,887 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-17 15:39:52,887 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-17 15:39:52,887 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-17 15:39:52,887 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-17 15:39:52,887 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-17 15:39:53,261 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-17 15:39:53,261 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-17 15:39:53,261 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-17 15:39:53,261 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-17 15:39:53,261 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-17 15:39:53,261 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-17 15:39:53,289 - INFO - Outlier detection completed.
+2026-03-17 15:39:53,289 - INFO - Outlier detection completed.
+2026-03-17 15:39:53,289 - INFO - Outlier detection completed.
+2026-03-17 15:39:53,289 - INFO - Outlier detection completed.
+2026-03-17 15:39:53,289 - INFO - Outlier detection completed.
+2026-03-17 15:39:53,289 - INFO - Outlier detection completed.
+2026-03-17 15:39:53,320 - INFO - Outlier capping completed.
+2026-03-17 15:39:53,320 - INFO - Outlier capping completed.
+2026-03-17 15:39:53,320 - INFO - Outlier capping completed.
+2026-03-17 15:39:53,320 - INFO - Outlier capping completed.
+2026-03-17 15:39:53,320 - INFO - Outlier capping completed.
+2026-03-17 15:39:53,320 - INFO - Outlier capping completed.
+2026-03-17 15:39:53,809 - INFO - Loading model from MLFlow registry.
+2026-03-17 15:39:53,809 - INFO - Loading model from MLFlow registry.
+2026-03-17 15:39:53,809 - INFO - Loading model from MLFlow registry.
+2026-03-17 15:39:53,809 - INFO - Loading model from MLFlow registry.
+2026-03-17 15:39:53,809 - INFO - Loading model from MLFlow registry.
+2026-03-17 15:39:53,809 - INFO - Loading model from MLFlow registry.
+2026-03-17 15:39:53,915 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-17 15:39:53,915 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-17 15:39:53,915 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-17 15:39:53,915 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-17 15:39:53,915 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-17 15:39:53,915 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-17 15:39:54,866 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 404 None
+2026-03-17 15:39:54,866 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 404 None
+2026-03-17 15:39:54,866 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 404 None
+2026-03-17 15:39:54,866 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 404 None
+2026-03-17 15:39:54,866 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 404 None
+2026-03-17 15:39:54,866 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 404 None
+2026-03-17 15:39:54,888 - ERROR - Error loading model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,888 - ERROR - Error loading model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,888 - ERROR - Error loading model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,888 - ERROR - Error loading model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,888 - ERROR - Error loading model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,888 - ERROR - Error loading model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,898 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,898 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,898 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,898 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,898 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,898 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,906 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,906 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,906 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,906 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,906 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,906 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,913 - ERROR - Error during prediction: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,913 - ERROR - Error during prediction: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,913 - ERROR - Error during prediction: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,913 - ERROR - Error during prediction: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,913 - ERROR - Error during prediction: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-17 15:39:54,913 - ERROR - Error during prediction: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 35 with error message: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
