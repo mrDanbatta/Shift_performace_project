@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#FF6B6B"
+backgroundColor = "#F8F9FA"
+secondaryBackgroundColor = "#E8EAED"
+textColor = "#262730"
+font = "monospace"
+
+[server]
+maxUploadSize = 200
+maxMessageSize = 200
+enableXsrfProtection = false
+enableCORS = false
