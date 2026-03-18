@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from src.components.data_ingestion import load_data
 from src.components.data_validation import validate
 from src.pipelines.training_pipeline import run_training_pipeline
+from src.pipelines.prediction_pipline import load_model
 from src.logger import configure_logger
 from src.exception import MyException
 
@@ -20,29 +21,28 @@ logger = configure_logger()
 
 app = FastAPI(title="Shift Optimisation System API", description="API for training and evaluating the shift optimisation model.")
 
-MLFLOW_TRACKING_URI = "https://dagshub.com/mrDanbatta/shift-optimisation-system.mlflow/"
-REGISTERED_MODEL_NAME = "ShiftPerformanceModel"
-mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+# MLFLOW_TRACKING_URI = "https://dagshub.com/mrDanbatta/shift-optimisation-system.mlflow/"
+# REGISTERED_MODEL_NAME = "ShiftPerformanceModel"
+# mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 
-_cached_model = None
 
-def load_model():
-    global _cached_model
-    if _cached_model is None:
-        try:
-            logger.info("Loading model from MLFlow registry.")
-            model_uri = f"models:/{REGISTERED_MODEL_NAME}/latest"
-            _cached_model = mlflow.sklearn.load_model(model_uri)
-            logger.info("Model loaded successfully.")
-        except Exception as e:
-            logger.warning(f"MLFlow loading failed, attempting local load: {e}")
-            try:
-                _cached_model = mlflow.sklearn.load_model("file:///artifacts/model/best_ridge_model.pkl")
-                logger.info("Model loaded from local storage.")
-            except:
-                logger.error("Both MLFlow and local loading failed.")
-                raise MyException(e, sys)
-    return _cached_model
+# def load_model():
+#     global _cached_model
+#     if _cached_model is None:
+#         try:
+#             logger.info("Loading model from MLFlow registry.")
+#             model_uri = f"models:/{REGISTERED_MODEL_NAME}/latest"
+#             _cached_model = mlflow.sklearn.load_model(model_uri)
+#             logger.info("Model loaded successfully.")
+#         except Exception as e:
+#             logger.warning(f"MLFlow loading failed, attempting local load: {e}")
+#             try:
+#                 _cached_model = mlflow.sklearn.load_model("file:///artifacts/model/best_ridge_model.pkl")
+#                 logger.info("Model loaded from local storage.")
+#             except Exception as e:
+#                 logger.error("Both MLFlow and local loading failed.")
+#                 raise MyException(e, sys)
+#     return _cached_model
 
 class ShiftInput(BaseModel):
     shift_name: str

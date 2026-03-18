@@ -37,7 +37,7 @@ class ModelPusher:
                 r2 = run.data.metrics.get("r2_score")
                 mae = run.data.metrics.get("mae_score")
 
-                if r2 is not None and mae is not None:
+                if r2 is None or mae is None:
                     continue
 
                 # Pick the best model based on the lowest MAE and highest R2
