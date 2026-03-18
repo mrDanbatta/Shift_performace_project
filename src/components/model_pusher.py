@@ -3,6 +3,7 @@ import mlflow
 from mlflow.tracking import MlflowClient
 import sys
 import mlflow.sklearn
+import os
 
 from src.logger import configure_logger
 from src.exception import MyException
@@ -11,11 +12,27 @@ class ModelPusher:
     def __init__(self):
         self.logger = configure_logger()
         # initialise dagshub client + MLFlow tracking
-        dagshub.init(
-            repo_owner= 'mrDanbatta',
-            repo_name= 'Shift_optimisation_system',
-            mlflow=True
-        )
+        try:
+            # Check if DagsHub token is available
+            if not os.getenv('DAGSHUB_USER_ACCESS_TOKEN'):
+                self.logger.warning(
+                    "DAGSHUB_USER_ACCESS_TOKEN environment variable not set. "
+                    "MLflow tracking will use local backend. "
+                    "To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN."
+                )
+            
+            dagshub.init(
+                repo_owner= 'mrDanbatta',
+                repo_name= 'Shift_optimisation_system',
+                mlflow=True
+            )
+            self.logger.info("DagsHub MLflow tracking initialized successfully.")
+        except Exception as e:
+            self.logger.warning(
+                f"Failed to initialize DagsHub: {e}. "
+                "MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking."
+            )
+        
         self.client = MlflowClient()
         self.registered_model_name = "ShiftPerformanceModel"
 
