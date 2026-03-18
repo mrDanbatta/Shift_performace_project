@@ -11,3 +11,4 @@ dagshub
 uvicorn
 streamlit
 fastapi
+python-dotenv

@@ -1,0 +1,1139 @@
+2026-03-18 17:13:01,706 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:13:01,706 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:13:01,706 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:13:01,706 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:13:01,706 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:13:08,138 - INFO - Loading data from the database...
+2026-03-18 17:13:08,138 - INFO - Loading data from the database...
+2026-03-18 17:13:08,138 - INFO - Loading data from the database...
+2026-03-18 17:13:08,138 - INFO - Loading data from the database...
+2026-03-18 17:13:08,138 - INFO - Loading data from the database...
+2026-03-18 17:13:08,138 - INFO - Loading data from the database...
+2026-03-18 17:13:08,152 - INFO - Schema loaded successfully.
+2026-03-18 17:13:08,152 - INFO - Schema loaded successfully.
+2026-03-18 17:13:08,152 - INFO - Schema loaded successfully.
+2026-03-18 17:13:08,152 - INFO - Schema loaded successfully.
+2026-03-18 17:13:08,152 - INFO - Schema loaded successfully.
+2026-03-18 17:13:08,152 - INFO - Schema loaded successfully.
+2026-03-18 17:13:12,167 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:12,167 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:12,167 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:12,167 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:12,167 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:12,167 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:12,180 - INFO - DataValidation class initialized.
+2026-03-18 17:13:12,180 - INFO - DataValidation class initialized.
+2026-03-18 17:13:12,180 - INFO - DataValidation class initialized.
+2026-03-18 17:13:12,180 - INFO - DataValidation class initialized.
+2026-03-18 17:13:12,180 - INFO - DataValidation class initialized.
+2026-03-18 17:13:12,180 - INFO - DataValidation class initialized.
+2026-03-18 17:13:12,180 - INFO - DataValidation class initialized.
+2026-03-18 17:13:12,189 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:12,189 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:12,189 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:12,189 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:12,189 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:12,189 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:12,189 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:12,315 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:12,315 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:12,315 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:12,315 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:12,315 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:12,315 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:12,315 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:12,542 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:12,542 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:12,542 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:12,542 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:12,542 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:12,542 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:12,542 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:12,556 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:12,556 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:12,556 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:12,556 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:12,556 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:12,556 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:12,556 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:12,938 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:12,938 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:12,938 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:12,938 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:12,938 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:12,938 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:12,938 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:13,274 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:13,274 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:13,274 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:13,274 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:13,274 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:13,274 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:13,274 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:13,302 - INFO - Outlier detection completed.
+2026-03-18 17:13:13,302 - INFO - Outlier detection completed.
+2026-03-18 17:13:13,302 - INFO - Outlier detection completed.
+2026-03-18 17:13:13,302 - INFO - Outlier detection completed.
+2026-03-18 17:13:13,302 - INFO - Outlier detection completed.
+2026-03-18 17:13:13,302 - INFO - Outlier detection completed.
+2026-03-18 17:13:13,302 - INFO - Outlier detection completed.
+2026-03-18 17:13:13,331 - INFO - Outlier capping completed.
+2026-03-18 17:13:13,331 - INFO - Outlier capping completed.
+2026-03-18 17:13:13,331 - INFO - Outlier capping completed.
+2026-03-18 17:13:13,331 - INFO - Outlier capping completed.
+2026-03-18 17:13:13,331 - INFO - Outlier capping completed.
+2026-03-18 17:13:13,331 - INFO - Outlier capping completed.
+2026-03-18 17:13:13,331 - INFO - Outlier capping completed.
+2026-03-18 17:13:20,678 - INFO - Loading data from the database...
+2026-03-18 17:13:20,678 - INFO - Loading data from the database...
+2026-03-18 17:13:20,678 - INFO - Loading data from the database...
+2026-03-18 17:13:20,678 - INFO - Loading data from the database...
+2026-03-18 17:13:20,678 - INFO - Loading data from the database...
+2026-03-18 17:13:20,678 - INFO - Loading data from the database...
+2026-03-18 17:13:20,678 - INFO - Loading data from the database...
+2026-03-18 17:13:20,678 - INFO - Loading data from the database...
+2026-03-18 17:13:20,694 - INFO - Schema loaded successfully.
+2026-03-18 17:13:20,694 - INFO - Schema loaded successfully.
+2026-03-18 17:13:20,694 - INFO - Schema loaded successfully.
+2026-03-18 17:13:20,694 - INFO - Schema loaded successfully.
+2026-03-18 17:13:20,694 - INFO - Schema loaded successfully.
+2026-03-18 17:13:20,694 - INFO - Schema loaded successfully.
+2026-03-18 17:13:20,694 - INFO - Schema loaded successfully.
+2026-03-18 17:13:20,694 - INFO - Schema loaded successfully.
+2026-03-18 17:13:24,654 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:24,654 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:24,654 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:24,654 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:24,654 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:24,654 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:24,654 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:24,654 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,670 - INFO - DataValidation class initialized.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,684 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:24,819 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,043 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,063 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,454 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,846 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,875 - INFO - Outlier detection completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:25,906 - INFO - Outlier capping completed.
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,430 - INFO - Loading data from the database...
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:28,453 - INFO - Schema loaded successfully.
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,893 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,914 - INFO - Data loaded successfully.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,930 - INFO - DataValidation class initialized.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:32,947 - INFO - The input DataFrame is not empty.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,078 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,317 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,340 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:33,741 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,090 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,129 - INFO - Outlier detection completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,169 - INFO - Outlier capping completed.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,517 - INFO - Data validation completed successfully.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,612 - INFO - DataTransformation class initialized.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,646 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,664 - INFO - Performing train-test split.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,680 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,727 - INFO - Train-test split completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,748 - INFO - Data transformation completed successfully.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,760 - INFO - Initialising ModelTrainer.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,779 - INFO - Schema loaded successfully.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,792 - INFO - Creating model pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,807 - INFO - Creating data transformation pipeline.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:34,856 - INFO - Model pipeline created successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,495 - INFO - Model training completed successfully.
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,513 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,532 - INFO - Evaluating model performance.
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,613 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,631 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,652 - WARNING - DAGSHUB_USER_ACCESS_TOKEN environment variable not set. MLflow tracking will use local backend. To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN.
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:35,671 - DEBUG - Loading token cache from C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,150 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=30 socket_options=None
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,187 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2C29D0>
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,202 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473545520> server_hostname='dagshub.com' timeout=30
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,243 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2CB890>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,264 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,283 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,300 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,316 - DEBUG - send_request_body.complete
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,331 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,646 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Wed, 18 Mar 2026 17:13:37 GMT'), (b'Content-Type', b'application/json; charset=UTF-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Content-Security-Policy', b"frame-ancestors 'self' https://colab.research.google.com https://*.googleusercontent.com https://console.paperspace.com https://deepnoteworkspace.com https://deepnote.com https://*.mybinder.org; upgrade-insecure-requests;"), (b'Referrer-Policy', b'origin-when-cross-origin'), (b'Set-Cookie', b'lang=en-US; Path=/; Max-Age=2147483647'), (b'Set-Cookie', b'i_like_dags_new=d96e1e96d9a0bbd2; Path=/; HttpOnly; Secure; SameSite=Lax'), (b'Set-Cookie', b'_csrf=4OYXpUapF-eCoxdbasLvMUgcUZU6MTc3Mzg1NDAxNzA2MjI4MDMwMw; Path=/; Expires=Thu, 19 Mar 2026 17:13:37 GMT'), (b'Strict-Transport-Security', b'max-age=600;'), (b'X-Content-Type-Options', b'nosniff;'), (b'X-Dagshub-Support-Id', b'5953ee215449adab804d9df9cd8bc472'), (b'Cache-Control', b'private, no-store, no-cache, max-age=0, must-revalidate'), (b'Pragma', b'no-cache'), (b'Expires', b'0'), (b'Content-Encoding', b'gzip'), (b'x-azure-ref', b'20260318T171336Z-15d8899cc875d4zshC1LONsa8s0000000zq0000000005su5'), (b'X-Cache', b'CONFIG_NOCACHE')])
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,685 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 403 Forbidden"
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,701 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,718 - DEBUG - receive_response_body.complete
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,734 - DEBUG - response_closed.started
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,749 - DEBUG - response_closed.complete
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,771 - DEBUG - close.started
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,784 - DEBUG - close.complete
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,797 - DEBUG - Dumping token cache to C:\Users\mrdan\AppData\Local\dagshub\dagshub\Cache\tokens
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:36,812 - DEBUG - No valid tokens found for host 'https://dagshub.com'. Authenticating with OAuth
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,842 - DEBUG - connect_tcp.started host='dagshub.com' port=443 local_address=None timeout=None socket_options=None
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,864 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF090>
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,880 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001D473547530> server_hostname='dagshub.com' timeout=None
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,919 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001D40B2EF810>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,937 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,961 - DEBUG - send_request_headers.complete
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:37,980 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,000 - DEBUG - send_request_body.complete
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:13:38,022 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,017 - DEBUG - receive_response_headers.failed exception=RemoteProtocolError('Server disconnected without sending a response.')
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,040 - DEBUG - response_closed.started
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,062 - DEBUG - response_closed.complete
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,085 - WARNING - Failed to initialize DagsHub: Server disconnected without sending a response.. MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,114 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:38,254 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,259 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,502 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/registered-models/get-latest-versions HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,766 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/shift-optimisation-system.mlflow/api/2.0/mlflow/runs/get?run_uuid=f4f84b935e9b4d3c89a2d09e51bb5b14&run_id=f4f84b935e9b4d3c89a2d09e51bb5b14 HTTP/1.1" 200 None
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,795 - INFO - New model has same R2 score and worse MAE score (3.170585432196931) than existing model (3.170585432196931). Skipping push.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,816 - INFO - Exsisting model performs better; new pipeline skipped.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,841 - INFO - Model training pipeline completed successfully.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.
+2026-03-18 17:14:39,918 - INFO - Model retrained and cache cleared.

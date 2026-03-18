@@ -3,8 +3,12 @@ import pandas as pd
 import numpy as np
 import requests
 import os
+from dotenv import load_dotenv
 
-API_URL = os.getenv("API_BASE_URL", "http://backend:8000")
+# Load environment variables from .env file
+load_dotenv()
+
+API_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
 
 def main():
     """Main Streamlit application."""

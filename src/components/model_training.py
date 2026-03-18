@@ -7,6 +7,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 import pandas as pd
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
 from src.logger import configure_logger
 from src.exception import MyException
 from src.utils.schema_loader import load_schema

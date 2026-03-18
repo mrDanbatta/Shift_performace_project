@@ -1,0 +1,732 @@
+2026-03-18 17:22:44,767 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:22:44,767 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:22:44,767 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:22:44,767 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:22:44,767 - DEBUG - Using proactor: IocpProactor
+2026-03-18 17:23:00,108 - INFO - Loading data from the database...
+2026-03-18 17:23:00,108 - INFO - Loading data from the database...
+2026-03-18 17:23:00,108 - INFO - Loading data from the database...
+2026-03-18 17:23:00,108 - INFO - Loading data from the database...
+2026-03-18 17:23:00,108 - INFO - Loading data from the database...
+2026-03-18 17:23:00,108 - INFO - Loading data from the database...
+2026-03-18 17:23:00,121 - INFO - Schema loaded successfully.
+2026-03-18 17:23:00,121 - INFO - Schema loaded successfully.
+2026-03-18 17:23:00,121 - INFO - Schema loaded successfully.
+2026-03-18 17:23:00,121 - INFO - Schema loaded successfully.
+2026-03-18 17:23:00,121 - INFO - Schema loaded successfully.
+2026-03-18 17:23:00,121 - INFO - Schema loaded successfully.
+2026-03-18 17:23:05,225 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:05,225 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:05,225 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:05,225 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:05,225 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:05,225 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:05,236 - INFO - DataValidation class initialized.
+2026-03-18 17:23:05,236 - INFO - DataValidation class initialized.
+2026-03-18 17:23:05,236 - INFO - DataValidation class initialized.
+2026-03-18 17:23:05,236 - INFO - DataValidation class initialized.
+2026-03-18 17:23:05,236 - INFO - DataValidation class initialized.
+2026-03-18 17:23:05,236 - INFO - DataValidation class initialized.
+2026-03-18 17:23:05,236 - INFO - DataValidation class initialized.
+2026-03-18 17:23:05,248 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:05,248 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:05,248 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:05,248 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:05,248 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:05,248 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:05,248 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:05,371 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:05,371 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:05,371 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:05,371 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:05,371 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:05,371 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:05,371 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:05,595 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:05,595 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:05,595 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:05,595 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:05,595 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:05,595 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:05,595 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:05,613 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:05,613 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:05,613 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:05,613 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:05,613 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:05,613 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:05,613 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:06,000 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:06,000 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:06,000 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:06,000 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:06,000 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:06,000 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:06,000 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:06,345 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:06,345 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:06,345 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:06,345 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:06,345 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:06,345 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:06,345 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:06,372 - INFO - Outlier detection completed.
+2026-03-18 17:23:06,372 - INFO - Outlier detection completed.
+2026-03-18 17:23:06,372 - INFO - Outlier detection completed.
+2026-03-18 17:23:06,372 - INFO - Outlier detection completed.
+2026-03-18 17:23:06,372 - INFO - Outlier detection completed.
+2026-03-18 17:23:06,372 - INFO - Outlier detection completed.
+2026-03-18 17:23:06,372 - INFO - Outlier detection completed.
+2026-03-18 17:23:06,404 - INFO - Outlier capping completed.
+2026-03-18 17:23:06,404 - INFO - Outlier capping completed.
+2026-03-18 17:23:06,404 - INFO - Outlier capping completed.
+2026-03-18 17:23:06,404 - INFO - Outlier capping completed.
+2026-03-18 17:23:06,404 - INFO - Outlier capping completed.
+2026-03-18 17:23:06,404 - INFO - Outlier capping completed.
+2026-03-18 17:23:06,404 - INFO - Outlier capping completed.
+2026-03-18 17:23:08,909 - INFO - Loading data from the database...
+2026-03-18 17:23:08,909 - INFO - Loading data from the database...
+2026-03-18 17:23:08,909 - INFO - Loading data from the database...
+2026-03-18 17:23:08,909 - INFO - Loading data from the database...
+2026-03-18 17:23:08,909 - INFO - Loading data from the database...
+2026-03-18 17:23:08,909 - INFO - Loading data from the database...
+2026-03-18 17:23:08,909 - INFO - Loading data from the database...
+2026-03-18 17:23:08,909 - INFO - Loading data from the database...
+2026-03-18 17:23:08,925 - INFO - Schema loaded successfully.
+2026-03-18 17:23:08,925 - INFO - Schema loaded successfully.
+2026-03-18 17:23:08,925 - INFO - Schema loaded successfully.
+2026-03-18 17:23:08,925 - INFO - Schema loaded successfully.
+2026-03-18 17:23:08,925 - INFO - Schema loaded successfully.
+2026-03-18 17:23:08,925 - INFO - Schema loaded successfully.
+2026-03-18 17:23:08,925 - INFO - Schema loaded successfully.
+2026-03-18 17:23:08,925 - INFO - Schema loaded successfully.
+2026-03-18 17:23:13,405 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:13,405 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:13,405 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:13,405 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:13,405 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:13,405 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:13,405 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:13,405 - INFO - Data loaded and saved to artifacts/data/shift_performance_data.csv
+2026-03-18 17:23:13,410 - INFO - Data loaded successfully.
+2026-03-18 17:23:13,410 - INFO - Data loaded successfully.
+2026-03-18 17:23:13,410 - INFO - Data loaded successfully.
+2026-03-18 17:23:13,410 - INFO - Data loaded successfully.
+2026-03-18 17:23:13,410 - INFO - Data loaded successfully.
+2026-03-18 17:23:13,410 - INFO - Data loaded successfully.
+2026-03-18 17:23:13,410 - INFO - Data loaded successfully.
+2026-03-18 17:23:13,410 - INFO - Data loaded successfully.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,417 - INFO - DataValidation class initialized.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,424 - INFO - The input DataFrame is not empty.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,549 - ERROR - The input DataFrame contains missing values.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,778 - INFO - Filled missing values in numeric column 'temperature' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:13,802 - INFO - Filled missing values in numeric column 'humidity' with mean.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,205 - ERROR - The input DataFrame contains 252776 duplicate rows.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,552 - INFO - Dropped 252776 duplicate rows from the DataFrame.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,586 - INFO - Outlier detection completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,615 - INFO - Outlier capping completed.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,953 - INFO - Data validation completed successfully.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,971 - INFO - DataTransformation class initialized.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:14,989 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,002 - INFO - Performing train-test split.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,014 - INFO - Splitting data into training and testing sets.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,056 - INFO - Train-test split completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,076 - INFO - Data transformation completed successfully.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,092 - INFO - Initialising ModelTrainer.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,106 - INFO - Schema loaded successfully.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,120 - INFO - Creating model pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,137 - INFO - Creating data transformation pipeline.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,190 - INFO - Model pipeline created successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,871 - INFO - Model training completed successfully.
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,890 - INFO - Object saved successfully at artifacts/model/model_pipeline.pkl
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:15,905 - INFO - Evaluating model performance.
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,001 - INFO - Model evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,014 - INFO - Model training and evaluation completed. MAE: 3.170585432196931, R2: 0.9071151639364793
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,030 - INFO - MLflow tracking configured with DagsHub remote backend.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,048 - INFO - Comparing new model with existing model in the registry.
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:16,183 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,144 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/registered-models/get?name=ShiftPerformanceModel HTTP/1.1" 404 None
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,159 - ERROR - Error retrieving existing model: RESOURCE_DOES_NOT_EXIST: Response: {'error_code': 'RESOURCE_DOES_NOT_EXIST'}
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:17,176 - INFO - No existing model to compare against. Pushing new model.
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,012 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,092 - DEBUG - Popen(['git', 'version'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,161 - DEBUG - sys.platform='win32', git_executable='git'
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,186 - DEBUG - Popen(['git', 'check-ignore', 'C:\\Users\\mrdan\\Documents\\Data_Science_Notes\\Machine_Learning\\amdari\\Shift_optimisation_system\\app'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=None, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,280 - DEBUG - Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system, stdin=<valid stream>, shell=False, universal_newlines=False)
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,667 - DEBUG - https://dagshub.com:443 "POST /mrDanbatta/Shift_optimisation_system.mlflow/api/2.0/mlflow/runs/create HTTP/1.1" 403 0
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,695 - ERROR - Error pushing model to registry: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,697 - DEBUG - Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,729 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,760 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,783 - ERROR - Error in start_model_training: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,803 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,822 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,841 - ERROR - Error in training pipeline: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,860 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,880 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,895 - ERROR - Error during retraining: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,912 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:18,930 - ERROR - Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\app\main.py at line number: 157 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\pipelines\training_pipeline.py at line number: 23 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_training.py at line number: 102 with error message: Error occurred in file: C:\Users\mrdan\Documents\Data_Science_Notes\Machine_Learning\amdari\Shift_optimisation_system\src\components\model_pusher.py at line number: 110 with error message: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:19,311 - DEBUG - https://config.mlflow-telemetry.io:443 "GET /3.10.1.json HTTP/1.1" 200 308
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:20,446 - DEBUG - Starting new HTTPS connection (1): dagshub.com:443
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,340 - DEBUG - https://dagshub.com:443 "GET /mrDanbatta/Shift_optimisation_system.mlflow/api/3.0/mlflow/server-info HTTP/1.1" 404 None
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:21,380 - DEBUG - Starting new HTTPS connection (1): api.mlflow-telemetry.io:443
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30
+2026-03-18 17:23:22,230 - DEBUG - https://api.mlflow-telemetry.io:443 "POST /log HTTP/1.1" 200 30

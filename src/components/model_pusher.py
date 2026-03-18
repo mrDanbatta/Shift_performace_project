@@ -1,9 +1,12 @@
-import dagshub
 import mlflow
 from mlflow.tracking import MlflowClient
 import sys
 import mlflow.sklearn
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 from src.logger import configure_logger
 from src.exception import MyException
@@ -11,26 +14,36 @@ from src.exception import MyException
 class ModelPusher:
     def __init__(self):
         self.logger = configure_logger()
-        # initialise dagshub client + MLFlow tracking
+        
+        # Get DagsHub token from environment
+        dagshub_token = os.getenv('DAGSHUB_USER_ACCESS_TOKEN')
+        
         try:
-            # Check if DagsHub token is available
-            if not os.getenv('DAGSHUB_USER_ACCESS_TOKEN'):
-                self.logger.warning(
-                    "DAGSHUB_USER_ACCESS_TOKEN environment variable not set. "
-                    "MLflow tracking will use local backend. "
-                    "To enable remote tracking, set DAGSHUB_USER_ACCESS_TOKEN."
+            if dagshub_token:
+                # Configure MLflow for DagsHub using proper authentication
+                repo_owner = 'mrDanbatta'
+                repo_name = 'Shift_optimisation_system'
+                
+                # Set the tracking and registry URI (without token in URL)
+                uri = f"https://dagshub.com/{repo_owner}/{repo_name}.mlflow"
+                mlflow.set_tracking_uri(uri)
+                mlflow.set_registry_uri(uri)
+                
+                # Set authentication credentials via environment variables
+                # DagsHub uses HTTP Basic Auth with token as password
+                os.environ['MLFLOW_TRACKING_USERNAME'] = dagshub_token
+                os.environ['MLFLOW_TRACKING_PASSWORD'] = dagshub_token
+                
+                self.logger.info("MLflow tracking configured with DagsHub remote backend.")
+            else:
+                self.logger.info(
+                    "DAGSHUB_USER_ACCESS_TOKEN not found. Using local MLflow backend. "
+                    "Models will be tracked locally in mlruns/ directory."
                 )
-            
-            dagshub.init(
-                repo_owner= 'mrDanbatta',
-                repo_name= 'Shift_optimisation_system',
-                mlflow=True
-            )
-            self.logger.info("DagsHub MLflow tracking initialized successfully.")
         except Exception as e:
             self.logger.warning(
-                f"Failed to initialize DagsHub: {e}. "
-                "MLflow will use local backend. Ensure DAGSHUB_USER_ACCESS_TOKEN is set for remote tracking."
+                f"Failed to configure DagsHub tracking: {e}. "
+                "Using local MLflow backend as fallback."
             )
         
         self.client = MlflowClient()
@@ -42,7 +55,13 @@ class ModelPusher:
         Returns a tuple: (r2_score, mae_score) of the best model.
         """
         try:
-            versions = self.client.get_latest_versions(self.registered_model_name)
+            try:
+                versions = self.client.get_latest_versions(self.registered_model_name)
+            except Exception:
+                # Model doesn't exist yet
+                self.logger.info("No existing model found in the registry.")
+                return None, None
+                
             if not versions:
                 self.logger.info("No existing model found in the registry.")
                 return None, None
@@ -95,18 +114,30 @@ class ModelPusher:
                 return False
             
             # log new model to MLFlow and register it
-            with mlflow.start_run():
-                mlflow.log_metric("r2_score", r2_score)
-                mlflow.log_metric("mae_score", mae_score)
-                mlflow.sklearn.log_model(
-                    sk_model=model,
-                    artifact_path="model",
-                    registered_model_name=self.registered_model_name
-                )
-                self.logger.info("New model logged and registered successfully.")
-                return True
+            try:
+                with mlflow.start_run():
+                    mlflow.log_metric("r2_score", r2_score)
+                    mlflow.log_metric("mae_score", mae_score)
+                    mlflow.sklearn.log_model(
+                        sk_model=model,
+                        artifact_path="model",
+                        registered_model_name=self.registered_model_name
+                    )
+                    self.logger.info("New model logged and registered successfully.")
+                    return True
+            except Exception as mlflow_error:
+                # Check if it's an authentication error
+                error_str = str(mlflow_error).lower()
+                if "403" in error_str or "unauthorized" in error_str or "forbidden" in error_str:
+                    self.logger.error(
+                        f"Authentication failed with MLflow/DagsHub: {mlflow_error}. "
+                        "Please verify DAGSHUB_USER_ACCESS_TOKEN is correct and the repository exists."
+                    )
+                else:
+                    self.logger.error(f"Error pushing model to registry: {mlflow_error}")
+                raise MyException(mlflow_error, sys)
             
         except Exception as e:
-            self.logger.error(f"Error pushing model to registry: {e}")
+            self.logger.error(f"Error in push_model: {e}")
             raise MyException(e, sys)
 

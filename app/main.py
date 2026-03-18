@@ -7,6 +7,10 @@ import mlflow
 import threading
 import sys
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Add the parent directory to Python path so src module can be found
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
