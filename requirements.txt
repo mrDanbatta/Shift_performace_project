@@ -8,6 +8,6 @@ shap
 joblib
 mlflow
 dagshub
-fastapi
 uvicorn
 streamlit
+fastapi

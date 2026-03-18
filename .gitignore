@@ -1,6 +1,8 @@
 ShiftData.db
-data/ShiftPerformance.csv
 mlruns/
 .env
 models/
 shift_env/
+data/ShiftPerformance.csv
+docker-compose.yml
+docker-compose.local.yml
