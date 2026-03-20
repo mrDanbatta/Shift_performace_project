@@ -1,6 +1,7 @@
 pandas
 numpy
 sqlalchemy
+sqlite3
 matplotlib
 seaborn
 scikit-learn
