@@ -1,59 +1,52 @@
 import pandas as pd
 import numpy as np
-import sqlite3
 import sys
 from src.logger import configure_logger
 from src.exception import MyException
 from src.utils.schema_loader import load_schema
 import os
 
-data_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'ShiftData.db'))
+# CSV file path
+data_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'ShiftPerformance.csv'))
 
 def load_data():
     """
-    Loads data from the SQLite database and returns it as a pandas DataFrame.
-    Uses sqlite3 directly with timeout handling.
+    Loads data from the CSV file and returns it as a pandas DataFrame.
     """
     logger = configure_logger()
     try:
-        logger.info("Loading data from the database...")
-        logger.info(f"Database path: {data_path}")
-        logger.info(f"Database exists: {os.path.exists(data_path)}")
+        logger.info("Loading data from CSV file...")
+        logger.info(f"CSV file path: {data_path}")
+        logger.info(f"CSV file exists: {os.path.exists(data_path)}")
         
+        if not os.path.exists(data_path):
+            raise FileNotFoundError(f"CSV file not found at: {data_path}")
+        
+        logger.info("Reading CSV file...")
+        df = pd.read_csv(data_path)
+        logger.info(f"Data loaded: {df.shape[0]} rows, {df.shape[1]} columns")
+        
+        # Validate that required columns exist
         schema = load_schema()
-        columns = [list(col.keys())[0] for col in schema['columns']]
-        logger.info(f"Schema columns: {columns}")
+        required_columns = [list(col.keys())[0] for col in schema['columns']]
+        logger.info(f"Required columns: {required_columns}")
         
-        logger.info("Opening SQLite connection with 10s timeout...")
-        # Use sqlite3 directly with timeout
-        conn = sqlite3.connect(data_path, timeout=10.0, isolation_level=None)
-        # Set pragmas for faster reading
-        conn.execute('PRAGMA query_only = ON')  # Read-only mode
-        conn.execute('PRAGMA cache_size = 10000')  # Larger cache
-        logger.info("Database connection established")
-        
-        logger.info("Starting SQL query execution...")
-        query = f"SELECT {', '.join(columns)} FROM ShiftPerformance"
-        logger.info(f"Query: {query}")
-        
-        df = pd.read_sql_query(query, conn)
-        logger.info(f"Data fetched: {df.shape[0]} rows, {df.shape[1]} columns")
-        
-        logger.info("Closing database connection...")
-        conn.close()
-        logger.info("Connection closed")
+        missing_columns = set(required_columns) - set(df.columns)
+        if missing_columns:
+            logger.error(f"Missing columns: {missing_columns}")
+            raise ValueError(f"CSV is missing required columns: {missing_columns}")
         
         logger.info("Creating artifacts directory...")
         os.makedirs("artifacts/data", exist_ok=True)
         
-        logger.info("Saving data to CSV...")
+        logger.info("Saving backup to artifacts/data/shift_performance_data.csv...")
         df.to_csv("artifacts/data/shift_performance_data.csv", index=False)
-        logger.info("Data loaded and saved to artifacts/data/shift_performance_data.csv")
+        
+        logger.info("Data loaded successfully from CSV")
         return df
-    except sqlite3.OperationalError as e:
-        logger.error(f"SQLite OperationalError: {e}", exc_info=True)
-        logger.error("This may indicate: database is locked, table doesn't exist, or corrupted")
+    except FileNotFoundError as e:
+        logger.error(f"File not found error: {e}", exc_info=True)
         raise MyException(e, sys)
     except Exception as e:
-        logger.error(f"Error loading data: {type(e).__name__}: {e}", exc_info=True)
+        logger.error(f"Error loading data from CSV: {type(e).__name__}: {e}", exc_info=True)
         raise MyException(e, sys)
