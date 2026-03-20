@@ -15,8 +15,14 @@ log_file_path = os.path.join(log_dir_path, LOG_FILE)
 def configure_logger():
     """
     Configures the logger to write logs to a file with rotation.
+    Prevents duplicate handlers.
     """
     logger = logging.getLogger()
+    
+    # Check if handlers are already added to prevent duplicates
+    if logger.hasHandlers():
+        return logger
+    
     logger.setLevel(logging.DEBUG)
 
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')

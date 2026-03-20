@@ -44,16 +44,18 @@ class DataValidation:
         self.df['maintenance_flag'] = self.df['maintenance_flag'].fillna(0)
         numeric_cols = self.df.select_dtypes(include=[np.number]).columns
         categorical_cols = self.df.select_dtypes(exclude=[np.number]).columns
-        print(numeric_cols.unique())
-        print(categorical_cols.unique())
+        self.logger.info(f"Numeric columns: {list(numeric_cols)}")
+        self.logger.info(f"Categorical columns: {list(categorical_cols)}")
         for col in numeric_cols:
             if self.df[col].isna().sum() > 0:
                 self.df[col] = self.df[col].fillna(self.df[col].mean())
                 self.logger.info(f"Filled missing values in numeric column '{col}' with mean.")
         for col in categorical_cols:
             if self.df[col].isna().sum() > 0:
-                self.df[col] = self.df[col].fillna(self.df[col].mode()[0])
-                self.logger.info(f"Filled missing values in categorical column '{col}' with mode.")
+                mode_val = self.df[col].mode()
+                if len(mode_val) > 0:
+                    self.df[col] = self.df[col].fillna(mode_val[0])
+                    self.logger.info(f"Filled missing values in categorical column '{col}' with mode.")
         return self.df
     
     def check_duplicates(self):

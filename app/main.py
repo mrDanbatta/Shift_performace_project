@@ -8,6 +8,7 @@ import threading
 import sys
 import os
 from dotenv import load_dotenv
+from starlette.responses import JSONResponse
 
 # Load environment variables from .env file
 load_dotenv()
@@ -25,6 +26,21 @@ from src.exception import MyException
 logger = configure_logger()
 
 app = FastAPI(title="Shift Optimisation System API", description="API for training and evaluating the shift optimisation model.")
+
+@app.on_event("startup")
+async def startup_event():
+    logger.info("=" * 50)
+    logger.info("Shift Optimisation System API Starting...")
+    logger.info("=" * 50)
+
+# Global exception handler
+@app.exception_handler(Exception)
+async def global_exception_handler(request, exc):
+    logger.error(f"Unhandled exception: {type(exc).__name__}: {exc}", exc_info=True)
+    return JSONResponse(
+        status_code=500,
+        content={"detail": f"Internal server error: {type(exc).__name__}: {str(exc)[:100]}", "type": type(exc).__name__},
+    )
 
 # CORS Middleware configuration
 app.add_middleware(
@@ -72,8 +88,13 @@ def health_check():
 @app.get("/data")
 def get_form_data():
     try:
+        logger.info("Fetching form data...")
         data = load_data()
+        logger.info(f"Data loaded successfully. Shape: {data.shape}")
+        
         validated_data = validate(data)
+        logger.info(f"Data validated successfully. Shape: {validated_data.shape}")
+        
         shifts = validated_data['shift_name'].unique().tolist()
         supervisors = validated_data['supervisor_id'].unique().tolist()
         skill_categories = validated_data['skill_category'].unique().tolist()
@@ -81,7 +102,8 @@ def get_form_data():
         issue_types = validated_data['issue_type'].unique().tolist()
         inspection_results = validated_data['inspection_result'].unique().tolist()
         operators = validated_data['operator_id'].unique().tolist()
-        return {
+        
+        response = {
             "shifts": shifts,
             "supervisors": supervisors,
             "skill_categories": skill_categories,
@@ -90,24 +112,35 @@ def get_form_data():
             "inspection_results": inspection_results,
             "operators": operators
         }
+        logger.info("Form data retrieved successfully")
+        return response
     except MyException as e:
-        logger.error(f"Error fetching form data: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"MyException in get_form_data: {e}")
+        raise HTTPException(status_code=500, detail=f"Data error: {str(e)}")
+    except Exception as e:
+        logger.error(f"Unexpected error in get_form_data: {type(e).__name__}: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Internal server error: {type(e).__name__}: {str(e)}")
 
 @app.post("/predict")
 def predict_shift_efficiency(input: ShiftInput):
     try:
+        logger.info(f"Processing prediction request...")
         model = load_model()
         df = pd.DataFrame([input.dict()])
         pred = model.predict(df)[0]
+        logger.info(f"Prediction completed: {pred}")
         return {"predicted_efficiency": float(pred)}
     except MyException as e:
-        logger.error(f"Error during prediction: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"MyException during prediction: {e}")
+        raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+    except Exception as e:
+        logger.error(f"Unexpected error during prediction: {type(e).__name__}: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Internal server error: {type(e).__name__}: {str(e)}")
     
 @app.post("/optimise")
 def optimise_shift(input: Optimisation_Input):
     try:
+        logger.info(f"Processing optimisation request for shift: {input.shift_name}")
         model = load_model()
         shift_name = input.shift_name
         exp_range = input.exp_range
@@ -146,21 +179,27 @@ def optimise_shift(input: Optimisation_Input):
 
         top_10 = scenario_df.sort_values(by='predicted_efficiency', ascending=False).head(10)
 
+        logger.info(f"Optimisation completed. Found {len(top_10)} scenarios.")
         return top_10.to_dict(orient='records')
     
     except MyException as e:
-        logger.error(f"Error during optimisation: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        logger.error(f"MyException during optimisation: {e}")
+        raise HTTPException(status_code=500, detail=f"Optimisation error: {str(e)}")
+    except Exception as e:
+        logger.error(f"Unexpected error during optimisation: {type(e).__name__}: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Internal server error: {type(e).__name__}: {str(e)}")
     
 def retrain_pipeline():
     try:
+        logger.info("Starting model retraining pipeline...")
         run_training_pipeline()
-        global _cached_model
-        _cached_model = None
-        logger.info("Model retrained and cache cleared.")
+        logger.info("Model retrained successfully and cache cleared.")
     except MyException as e:
-        logger.error(f"Error during retraining: {e}")
-        raise MyException(e, sys)
+        logger.error(f"MyException during retraining: {e}")
+        raise
+    except Exception as e:
+        logger.error(f"Unexpected error during retraining: {type(e).__name__}: {e}", exc_info=True)
+        raise MyException(e)
     
 @app.post("/retrain")
 def retrain_model():
