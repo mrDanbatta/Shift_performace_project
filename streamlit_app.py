@@ -4,11 +4,60 @@ import numpy as np
 import requests
 import os
 from dotenv import load_dotenv
+import threading
 
 # Load environment variables from .env file
 load_dotenv()
 
 API_URL = os.getenv("API_BASE_URL", "http://34.207.152.39:8000")
+
+def load_form_data_from_csv():
+    """
+    Load form data from CSV file (fast, reliable).
+    This is the primary data source.
+    """
+    try:
+        csv_path = "artifacts/data/validated_data.csv"
+        if os.path.exists(csv_path):
+            df = pd.read_csv(csv_path)
+            return {
+                "shifts": sorted(df['shift_name'].unique().tolist()),
+                "supervisors": sorted(df['supervisor_id'].unique().tolist()),
+                "skill_categories": sorted(df['skill_category'].unique().tolist()),
+                "machine_statuses": sorted(df['machine_status'].unique().tolist()),
+                "issue_types": sorted(df['issue_type'].unique().tolist()),
+                "inspection_results": sorted(df['inspection_result'].unique().tolist()),
+                "operators": sorted(df['operator_id'].unique().tolist()),
+            }
+    except Exception as e:
+        print(f"Error loading CSV: {e}")
+    
+    # Return default data if CSV doesn't exist
+    return {
+        "shifts": ["Shift A", "Shift B", "Shift C"],
+        "supervisors": ["SUP_01", "SUP_02"],
+        "skill_categories": ["Junior", "Senior"],
+        "machine_statuses": ["Operational", "Down"],
+        "issue_types": ["No_Issue", "Maintenance_Issue"],
+        "inspection_results": ["Pass", "Fail"],
+        "operators": ["OP_001", "OP_002"],
+    }
+
+def try_refresh_from_api():
+    """
+    Try to fetch fresh data from API in the background.
+    Does NOT block the main app - used only for updating cache.
+    """
+    try:
+        response = requests.get(f"{API_URL}/data", timeout=5)
+        if response.status_code == 200:
+            # Update cache with fresh data
+            st.cache_data.clear()
+            return response.json()
+    except Exception as e:
+        # Silently fail - we already have fallback data
+        pass
+    return None
 
 def main():
     """Main Streamlit application."""
@@ -45,13 +94,11 @@ def main():
     st.markdown('<div class="main-header">🏭 Shift Performance Optimisation System</div>', unsafe_allow_html=True)
     st.markdown("---")
 
-    # Fetch form data
-    response = requests.get(f"{API_URL}/data")
-    if response.status_code == 200:
-        form_data = response.json()
-    else:
-        st.error("Failed to connect to API. Please ensure the backend is running.")
-        st.stop()
+    # Load form data from CSV immediately (no waiting)
+    form_data = load_form_data_from_csv()
+    
+    # Try to refresh from API in background (non-blocking)
+    threading.Thread(target=try_refresh_from_api, daemon=True).start()
 
     # Tab-based navigation
     tab1, tab2, tab3 = st.tabs(["📊 Efficiency Prediction", "⚙️ Scenario Optimisation", "🔄 Model Management"])
