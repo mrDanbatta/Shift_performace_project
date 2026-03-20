@@ -15,17 +15,27 @@ def load_data():
     logger = configure_logger()
     try:
         logger.info("Loading data from the database...")
+        logger.info(f"Database path: {data_path}")
+        logger.info(f"Database exists: {os.path.exists(data_path)}")
+        
         schema = load_schema()
         columns = [list(col.keys())[0] for col in schema['columns']]
+        logger.info(f"Schema columns: {columns}")
+        
         engine = create_engine(f'sqlite:///{data_path}')
+        logger.info("SQLite engine created")
+        
         conn = engine.connect()
+        logger.info("Database connection established")
 
         df = pd.read_sql_query(f"SELECT {', '.join(columns)} FROM ShiftPerformance", conn)
+        logger.info(f"Data fetched: {df.shape[0]} rows, {df.shape[1]} columns")
+        
         conn.close()
         os.makedirs("artifacts/data", exist_ok=True)
         df.to_csv("artifacts/data/shift_performance_data.csv", index=False)
         logger.info("Data loaded and saved to artifacts/data/shift_performance_data.csv")
         return df
     except Exception as e:
-        logger.error(f"Error loading data: {e}")
+        logger.error(f"Error loading data: {type(e).__name__}: {e}", exc_info=True)
         raise MyException(e)
