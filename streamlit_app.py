@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-API_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+API_URL = os.getenv("API_BASE_URL", "http://52.55.186.196:8000")
 
 def main():
     """Main Streamlit application."""
