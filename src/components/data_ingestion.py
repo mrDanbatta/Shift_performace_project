@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import sqlite3
+import sys
 from src.logger import configure_logger
 from src.exception import MyException
 from src.utils.schema_loader import load_schema
@@ -25,16 +26,16 @@ def load_data():
         
         logger.info("Opening SQLite connection with 10s timeout...")
         # Use sqlite3 directly with timeout
-        conn = sqlite3.connect(data_path, timeout=10.0)
+        conn = sqlite3.connect(data_path, timeout=10.0, isolation_level=None)
+        # Set pragmas for faster reading
         conn.execute('PRAGMA query_only = ON')  # Read-only mode
+        conn.execute('PRAGMA cache_size = 10000')  # Larger cache
         logger.info("Database connection established")
         
         logger.info("Starting SQL query execution...")
         query = f"SELECT {', '.join(columns)} FROM ShiftPerformance"
         logger.info(f"Query: {query}")
         
-        # Use timeout for the query
-        conn.timeout = 10  # 10 second timeout
         df = pd.read_sql_query(query, conn)
         logger.info(f"Data fetched: {df.shape[0]} rows, {df.shape[1]} columns")
         
@@ -52,7 +53,7 @@ def load_data():
     except sqlite3.OperationalError as e:
         logger.error(f"SQLite OperationalError: {e}", exc_info=True)
         logger.error("This may indicate: database is locked, table doesn't exist, or corrupted")
-        raise MyException(str(e))
+        raise MyException(e, sys)
     except Exception as e:
         logger.error(f"Error loading data: {type(e).__name__}: {e}", exc_info=True)
-        raise MyException(e)
+        raise MyException(e, sys)
