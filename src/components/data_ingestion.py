@@ -22,21 +22,26 @@ def load_data():
         columns = [list(col.keys())[0] for col in schema['columns']]
         logger.info(f"Schema columns: {columns}")
         
-        engine = create_engine(f'sqlite:///{data_path}')
-        logger.info("SQLite engine created")
+        # Create SQLite engine with timeout and proper connection settings
+        engine = create_engine(
+            f'sqlite:///{data_path}',
+            connect_args={'timeout': 30},  # 30 second timeout
+            pool_pre_ping=True,  # Test connection before using
+            echo=False
+        )
+        logger.info("SQLite engine created with 30s timeout")
         
-        conn = engine.connect()
-        logger.info("Database connection established")
+        # Use context manager for safe connection handling
+        with engine.connect() as conn:
+            logger.info("Database connection established")
+            
+            logger.info("Starting SQL query execution...")
+            query = f"SELECT {', '.join(columns)} FROM ShiftPerformance"
+            logger.info(f"Query: {query}")
+            
+            df = pd.read_sql_query(query, conn)
+            logger.info(f"Data fetched: {df.shape[0]} rows, {df.shape[1]} columns")
         
-        logger.info("Starting SQL query execution...")
-        query = f"SELECT {', '.join(columns)} FROM ShiftPerformance"
-        logger.info(f"Query: {query}")
-        
-        df = pd.read_sql_query(query, conn)
-        logger.info(f"Data fetched: {df.shape[0]} rows, {df.shape[1]} columns")
-        
-        logger.info("Closing database connection...")
-        conn.close()
         logger.info("Connection closed")
         
         logger.info("Creating artifacts directory...")
