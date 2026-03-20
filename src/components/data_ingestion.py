@@ -27,12 +27,22 @@ def load_data():
         
         conn = engine.connect()
         logger.info("Database connection established")
-
-        df = pd.read_sql_query(f"SELECT {', '.join(columns)} FROM ShiftPerformance", conn)
+        
+        logger.info("Starting SQL query execution...")
+        query = f"SELECT {', '.join(columns)} FROM ShiftPerformance"
+        logger.info(f"Query: {query}")
+        
+        df = pd.read_sql_query(query, conn)
         logger.info(f"Data fetched: {df.shape[0]} rows, {df.shape[1]} columns")
         
+        logger.info("Closing database connection...")
         conn.close()
+        logger.info("Connection closed")
+        
+        logger.info("Creating artifacts directory...")
         os.makedirs("artifacts/data", exist_ok=True)
+        
+        logger.info("Saving data to CSV...")
         df.to_csv("artifacts/data/shift_performance_data.csv", index=False)
         logger.info("Data loaded and saved to artifacts/data/shift_performance_data.csv")
         return df
