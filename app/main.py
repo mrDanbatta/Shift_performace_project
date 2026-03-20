@@ -48,7 +48,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8501",
         "http://127.0.0.1:8501",
-        "http://52.55.186.196:8501", # streamlit frontend
+        "http://34.207.152.39:8501", # streamlit frontend
     ],
     allow_credentials=False,
     allow_methods=["*"],
