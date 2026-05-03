@@ -9,7 +9,7 @@ import threading
 # Load environment variables from .env file
 load_dotenv()
 
-API_URL = os.getenv("API_BASE_URL", "http://34.207.152.39:8000")
+API_URL = os.getenv("API_BASE_URL", "http://54.205.14.230:8000")
 
 def load_form_data_from_csv():
     """
